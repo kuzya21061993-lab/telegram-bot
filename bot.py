@@ -2,8 +2,8 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 
-TOKEN = os.environ["TOKEN"]
-OWNER_ID = int(os.environ["OWNER_ID"])
+TOKEN = "8765263256:AAElamGLZqBAVyuc6WdqNfwCoZuvpKqU8fc"
+OWNER_ID = 5428973280
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
